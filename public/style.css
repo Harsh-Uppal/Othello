@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    --v: calc((1vw + 1vh) / 2)
+}
+
+body {
+    background-color: rgb(54, 26, 63);
+}
+
+.page {
+    margin: var(--v);
+    border-radius: calc(var(--v) * 1);
+    background-color: gray;
+}
